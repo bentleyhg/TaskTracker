@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  category: MyString
+  diff_level: 1
+  diff_type: MyString
+  priority: 1
+  description: MyString
+  status: MyString
+  assign_date: 2013-03-02
+  complete_date: 2013-03-02
+
+two:
+  user_id: 1
+  category: MyString
+  diff_level: 1
+  diff_type: MyString
+  priority: 1
+  description: MyString
+  status: MyString
+  assign_date: 2013-03-02
+  complete_date: 2013-03-02
