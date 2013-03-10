@@ -1,3 +1,61 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* This stylesheet defines the styles that are common throghout the entire HQ site */
+
+body 
+{
+	background:#112231 image-url('gradient_bg.png') repeat-x center top;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em;
+}
+
+h1 
+{
+	color: #2e5d86;
+}
+
+h4
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #1e508a;
+}
+
+img{
+	border: 2px solid #1d4d65;
+}
+
+table
+{
+	border-collapse:collapse;
+}
+table,th, td
+{
+	border: 1px solid black;
+}
+
+#contentbox
+{
+	width:800px;
+	margin: 50px auto;
+	background-color: #f2ffff;
+	border: 2px solid #1d4d65;
+}
+
+#content
+{
+	margin:10px 20px;
+	color: #000000;
+}
+
+.centered {
+	text-align: center;
+}
+.imgCaption{
+	font-size: 0.7em;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
